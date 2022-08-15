@@ -14,6 +14,7 @@ import android.bluetooth.BluetoothAdapter;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.Color;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -30,6 +31,12 @@ public class BluetoothActivityForChild extends AppCompatActivity {
     // !-- 이 액티비티에는 아동용 심폐소생술 안내기를 구현했으며, 아두이노와 블루투스로 연결되고 송수신할 수 있음. 센서값에 따라 성공,실패 TextView의 색이 변함. --!
 
     private BluetoothSPP bt;
+
+    // 메트로놈 mp3용
+    Button btnmp3on3;
+    Button btnmp3off3;
+
+    MediaPlayer mediaPlayer;
 
 
     @Override
@@ -106,11 +113,39 @@ public class BluetoothActivityForChild extends AppCompatActivity {
             }
         });
 
+        // 메트로놈 mp3
+        btnmp3on3 = findViewById(R.id.btnmp3on3);
+        btnmp3off3 = findViewById(R.id.btnmp3off3);
+
+        // 시작 버튼 눌렀을 때
+        btnmp3on3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                mediaPlayer = MediaPlayer.create(BluetoothActivityForChild.this, R.raw.cprbpm);
+                mediaPlayer.start();
+            }
+        });
+
+        // 중지 버튼 눌렀을 때
+        btnmp3off3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if(mediaPlayer.isPlaying()) {
+                    mediaPlayer.stop();
+                    mediaPlayer.reset();
+                }
+            }
+        });
     }
 
     public void onDestroy() {
         super.onDestroy();
         bt.stopService(); //블루투스 중지
+
+        if(mediaPlayer != null) { // 음원 중지
+            mediaPlayer.release();
+            mediaPlayer = null;
+        }
     }
 
     public void onStart() {
