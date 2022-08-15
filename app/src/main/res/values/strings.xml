@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">심사숙공</string>
+    <string name="name">심사숙공</string>
+    <string name="tv_1">시작하기</string>
+    <string name="tv_2">아래의 하트 버튼을 누르고 심장 압박을 시작하세요.</string>
+    <string name="bt_2">119\n전화하기</string>
+    <string name="bt_3">자동심장충격기\n위치찾기</string>
+    <string name="bt_4">CPR\n시연영상</string>
+</resources>

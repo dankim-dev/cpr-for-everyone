@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:elevation="10dp"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/btbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="52dp"
+        android:background="@android:color/transparent"
+        android:contentDescription="null"
+        android:onClick="onBtbuttonClicked"
+        app:layout_constraintBottom_toTopOf="@+id/bgbtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/coding_bluetooth" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:fontFamily="@font/bmdohyun"
+        android:text="@string/name"
+        android:textColor="#132CB5"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.123" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/bgbtn"
+        android:layout_width="365dp"
+        android:layout_height="345dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/button1"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/call"
+        android:layout_width="110dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/button2"
+        android:fontFamily="@font/bmdohyun"
+        android:onClick="onCallClicked"
+        android:text="@string/bt_2"
+        android:textColor="#132CB5"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toStartOf="@+id/map"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bgbtn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/map"
+        android:layout_width="110dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/button2"
+        android:fontFamily="@font/bmdohyun"
+        android:onClick="onMapClicked"
+        android:text="@string/bt_3"
+        android:textColor="#132CB5"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toStartOf="@+id/video"
+        app:layout_constraintStart_toEndOf="@+id/call"
+        app:layout_constraintTop_toBottomOf="@+id/bgbtn" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/video"
+        android:layout_width="110dp"
+        android:layout_height="105dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="26dp"
+        android:background="@drawable/button2"
+        android:fontFamily="@font/bmdohyun"
+        android:onClick="onVideoClicked"
+        android:text="@string/bt_4"
+        android:textColor="#132CB5"
+        android:textSize="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/map"
+        app:layout_constraintTop_toBottomOf="@+id/bgbtn" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView_start"
+        android:layout_width="115dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/bmdohyun"
+        android:text="@string/tv_1"
+        android:textColor="#132CB5"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="@+id/bgbtn"
+        app:layout_constraintTop_toTopOf="@+id/bgbtn" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/textView_explain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:text="@string/tv_2"
+        android:textColor="#545A80"
+        android:textSize="16dp"
+
+        app:layout_constraintStart_toStartOf="@+id/bgbtn"
+        app:layout_constraintTop_toBottomOf="@+id/textView_start" />
+
+    <!-- null : hardcoded text -->
+
+    <androidx.appcompat.widget.AppCompatImageButton
+        android:id="@+id/heartbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/imgbtn_state"
+        android:contentDescription="null"
+        android:onClick="onHeartbtnClicked"
+        app:layout_constraintEnd_toEndOf="@+id/bgbtn"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="@+id/bgbtn"
+        app:layout_constraintTop_toTopOf="@+id/bgbtn"
+        app:srcCompat="@drawable/conding_heartbeat" />
+
+    <ImageView
+        android:id="@+id/beat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="56dp"
+        android:contentDescription="null"
+        app:layout_constraintBottom_toTopOf="@+id/bgbtn"
+        app:layout_constraintEnd_toStartOf="@+id/btbutton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/tv_name"
+        app:srcCompat="@drawable/coding_textside" />
+
+    <!-- null : hardcoded text -->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

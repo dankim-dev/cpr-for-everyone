@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".BluetoothActivity">
+
+    <!--Display whether bluetooth is available or not -->
+    <TextView
+        android:id="@+id/statusBluetoothTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:fontFamily="@font/bmdohyun"
+        android:paddingTop="50dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="#132CB5"/>
+
+    <!--Bluetooth icon (on/off) -->
+    <ImageView
+        android:id="@+id/bluetoothIv"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <!--on Button-->
+    <Button
+        android:id="@+id/onBtn"
+        android:minWidth="200dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="블루투스 켜기"
+        android:fontFamily="@font/bmdohyun"
+        android:background="@drawable/button2"
+        android:textColor="#132CB5"/>
+
+    <!-- off Button-->
+    <Button
+        android:id="@+id/offBtn"
+        android:minWidth="200dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="블루투스 끄기"
+        android:fontFamily="@font/bmdohyun"
+        android:background="@drawable/button2"
+        android:textColor="#132CB5"/>
+
+    <!--Discoverable button-->
+    <Button
+        android:id="@+id/discoverableBtn"
+        android:minWidth="200dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="찾기 모드"
+        android:fontFamily="@font/bmdohyun"
+        android:background="@drawable/button2"
+        android:textColor="#132CB5"/>
+
+    <!--Get list of paired devices button-->
+  <!--  <Button
+        android:id="@+id/pairedBtn"
+        android:minWidth="200dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="페어된 디바이스 보기"
+        android:fontFamily="@font/bmdohyun"
+        android:background="@drawable/button2"
+        android:textColor="#132CB5"/>-->
+
+    <Button
+        android:id="@+id/connectbtn"
+        android:minWidth="200dp"
+        android:layout_marginBottom="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="연결하러 가기"
+        android:onClick="onConnectbtnClicked"
+        android:fontFamily="@font/bmdohyun"
+        android:background="@drawable/button2"
+        android:textColor="#132CB5"/>
+
+    <!--show paired devices here-->
+    <TextView
+        android:id="@+id/pairedTv"
+        android:minWidth="200dp"
+        android:text=""
+        android:textColor="#000"
+        android:fontFamily="@font/bmdohyun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>

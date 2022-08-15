@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BluetoothActivity2">
+
+    <Button
+        android:id="@+id/btnConnect1"
+        android:layout_width="231dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="152dp"
+        android:text="블루투스 연결"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:fontFamily="@font/bmdohyun"
+        android:background="@drawable/button2"
+        android:textColor="#132CB5"
+        />
+
+    <Button
+        android:id="@+id/btnSend1"
+        android:layout_width="231dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/button2"
+        android:fontFamily="@font/bmdohyun"
+        android:text="데이터 전송"
+        android:textColor="#132CB5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnsetting1"
+        android:layout_width="231dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/button2"
+        android:fontFamily="@font/bmdohyun"
+        android:text="블루투스 설정으로 이동"
+        android:textColor="#132CB5"
+        android:onClick="onBtnsetting1Clicked"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/pressure1"
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:hint="압박 정도"
+        android:textSize="28dp"
+        android:fontFamily="@font/bmdohyun"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnConnect1" />
+
+    <TextView
+        android:id="@+id/success1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="92dp"
+        android:fontFamily="@font/bmdohyun"
+        android:text="성공"
+        android:textColor="#4B5487"
+        android:textSize="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fail1"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/fail1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="92dp"
+        android:fontFamily="@font/bmdohyun"
+        android:text="실패"
+        android:textColor="#4B5487"
+        android:textSize="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/success1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
