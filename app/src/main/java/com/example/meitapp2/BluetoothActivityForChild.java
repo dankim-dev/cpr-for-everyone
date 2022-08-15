@@ -121,7 +121,7 @@ public class BluetoothActivityForChild extends AppCompatActivity {
         btnmp3on3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mediaPlayer = MediaPlayer.create(BluetoothActivityForChild.this, R.raw.cprbpm);
+                mediaPlayer = MediaPlayer.create(BluetoothActivityForChild.this, R.raw.cprbpmm);
                 mediaPlayer.start();
             }
         });

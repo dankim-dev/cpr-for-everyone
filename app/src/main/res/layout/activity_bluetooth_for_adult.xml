@@ -84,7 +84,7 @@
         android:id="@+id/fail2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="6dp"
+        android:layout_marginEnd="2dp"
         android:layout_marginBottom="192dp"
         android:fontFamily="@font/bmdohyun"
         android:text="실패"
@@ -98,16 +98,15 @@
         android:id="@+id/btnmp3on2"
         android:layout_width="0dp"
         android:layout_height="50dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginTop="76dp"
         android:background="@drawable/button5"
         android:fontFamily="@font/bmdohyun"
         android:text="음악 시작"
         android:textColor="#132CB5"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/btnConnect2"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/btnConnect2"
-        app:layout_constraintTop_toBottomOf="@+id/success2"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintTop_toBottomOf="@+id/success2" />
 
     <Button
         android:id="@+id/btnmp3off2"
@@ -120,9 +119,9 @@
         android:textColor="#132CB5"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/btnSend2"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/btnSend2"
         app:layout_constraintTop_toBottomOf="@+id/success2"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.244" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
