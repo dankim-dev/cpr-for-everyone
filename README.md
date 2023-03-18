@@ -15,10 +15,18 @@
 - 개발 기간 : 2022년 7월 ~ 8월 19일
 
 ## Stacks
-**1. 전자공학전공**
+**1. IT공학전공**
+<p>
+  <img src="https://img.shields.io/badge/android-3DDC84?style=for-the-badge&logo=android&logoColor=white">
+  <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=OpenJDK&logoColor=white"/>
+</p>
+
+**2. 전자공학전공**
 <p>
   <img src="https://img.shields.io/badge/arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white">
 </p>
+
+
 
 아두이노의 압력 센서, 초음파 센서, LCD 디스플레이
 
