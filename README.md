@@ -17,7 +17,7 @@
 ## Stacks
 **1. IT공학전공**
 <p>
-  <img src="https://img.shields.io/badge/android-3DDC84?style=for-the-badge&logo=android&logoColor=white">
+  <img src="https://img.shields.io/badge/android-3DDC84?style=fflat&logo=android&logoColor=black">
   <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=OpenJDK&logoColor=white"/>
 </p>
 
