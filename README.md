@@ -3,6 +3,10 @@
 ### 숙명여자대학교 공과대학 연합 프로젝트 대회 "MEIT" - 대상 수상작
 (기계시스템학부, 전자공학전공, IT공학전공 대상)
 
+<p align="center">
+  <img src="![logo01-02](https://user-images.githubusercontent.com/91182156/226110726-8b82710b-ca30-4a53-80b6-c80c8724e67d.jpg)">
+</p>
+
 - 역할 : Android Developer
 - 개발 기간 : 2022년 7월 ~ 8월 19일
 - 개발 기능
