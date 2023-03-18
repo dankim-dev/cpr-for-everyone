@@ -4,7 +4,7 @@
 (기계시스템학부, 전자공학전공, IT공학전공 대상)
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/91182156/226110846-ea974586-a6eb-4769-81bb-00fdc4d5ae7d.jpg">
+  <img src="https://user-images.githubusercontent.com/91182156/226110846-ea974586-a6eb-4769-81bb-00fdc4d5ae7d.jpg" width="200" height="400">
 </p>
 
 - 역할 : Android Developer
