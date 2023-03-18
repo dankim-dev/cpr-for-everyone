@@ -13,23 +13,6 @@
 
 - 역할 : Android Developer
 - 개발 기간 : 2022년 7월 ~ 8월 19일
-
-## Stacks
-**1. IT공학전공**
-<p>
-  <img src="https://img.shields.io/badge/android-3DDC84?style=fflat&logo=android&logoColor=black">
-  <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=OpenJDK&logoColor=white"/>
-</p>
-
-**2. 전자공학전공**
-<p>
-  <img src="https://img.shields.io/badge/arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white">
-</p>
-
-
-
-아두이노의 압력 센서, 초음파 센서, LCD 디스플레이
-
 - 개발 기능
 
   >- 전체 UI/UX 디자인 및 어플리케이션 구현
@@ -37,3 +20,20 @@
   >- 아두이노 센서(압력 센서)와의 소통을 위한 블루투스 연결 기능 구현
   >- 영아 및 성인 심폐소생술 상세 안내 액티비티 구현
   >- 골든 타임을 위한 4분 뒤 자동 알람 기능 구현 (팝업, 소리/진동)
+
+## Stacks
+**1. IT공학전공**
+<p>
+  <img src="https://img.shields.io/badge/android-3DDC84?style=fflat&logo=android&logoColor=white">
+  <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=OpenJDK&logoColor=white"/>
+</p>
+
+**2. 전자공학전공**
+<p>
+  <img src="https://img.shields.io/badge/arduino-00979D?style=flat&logo=arduino&logoColor=white">
+</p>
+
+**3. 기계공학전공**
+<p>
+  <img src="https://img.shields.io/badge/AutoCad-0696D7?style=fflat&logo=AutoCad&logoColor=white">
+
