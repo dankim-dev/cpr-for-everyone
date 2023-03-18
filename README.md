@@ -7,6 +7,7 @@
   <img src="https://user-images.githubusercontent.com/91182156/226110846-ea974586-a6eb-4769-81bb-00fdc4d5ae7d.jpg" width="300" height="300">
 </p>
 
+***
 - 역할 : Android Developer
 - 개발 기간 : 2022년 7월 ~ 8월 19일
 - 개발 기능
