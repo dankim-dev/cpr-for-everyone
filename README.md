@@ -14,6 +14,9 @@
 - 역할 : Android Developer
 - 개발 기간 : 2022년 7월 ~ 8월 19일
 
+## Stacks
+**전자공학전공**
+<img src="https://img.shields.io/badge/arduino-00979D?style=for-the-badge&logo=arduino&logoColor=white">
 
 아두이노의 압력 센서, 초음파 센서, LCD 디스플레이
 
