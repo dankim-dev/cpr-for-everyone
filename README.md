@@ -36,6 +36,3 @@
 **3. 기계공학전공 🤖**
 <p>
   <img src="https://img.shields.io/badge/AutoCad-0696D7?style=fflat&logo=AutoCad&logoColor=white">
-
-#### 2022 숙명여자대학교 공과대학 연합 프로젝트 대회 "MEIT" - 대상 수상작
-(기계시스템학부, 전자공학전공, IT공학전공 대상 / 주제 : HW와 SW의 융합)
