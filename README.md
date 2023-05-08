@@ -1,9 +1,5 @@
 # MEIT - 심사숙공 
 
-## 2022 숙명여자대학교 공과대학 연합 프로젝트 대회 "MEIT" - 대상 수상작
-(기계시스템학부, 전자공학전공, IT공학전공 대상 / 주제 : HW와 SW의 융합)
-
-
 <p align="center">
   <img src="https://user-images.githubusercontent.com/91182156/226110846-ea974586-a6eb-4769-81bb-00fdc4d5ae7d.jpg" width="300" height="300">
 </p>
@@ -41,3 +37,5 @@
 <p>
   <img src="https://img.shields.io/badge/AutoCad-0696D7?style=fflat&logo=AutoCad&logoColor=white">
 
+#### 2022 숙명여자대학교 공과대학 연합 프로젝트 대회 "MEIT" - 대상 수상작
+(기계시스템학부, 전자공학전공, IT공학전공 대상 / 주제 : HW와 SW의 융합)
