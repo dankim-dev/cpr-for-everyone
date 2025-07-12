@@ -18,7 +18,7 @@ By integrating real-time pressure feedback, emergency assistance tools, and clea
 
 <br>
 
-## License & Patent
+## 📍 License & Patent
 
 This project is protected by **Korean Intellectual Property Law** under a filed patent.
 
