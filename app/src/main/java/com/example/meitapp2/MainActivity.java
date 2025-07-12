@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    //119전화연결
+    //119 전화 연결
     public void onCallClicked(View v){
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:119"));
         startActivity(intent);
@@ -48,13 +48,13 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    //AED위치연결
+    //AED 위치 연결
     public void onMapClicked(View v) {
         Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.e-gen.or.kr/egen/search_aed.do?searchType=general&lat=&lon=&sidoCode=11&gugunCode=680&dongCode=&loca=11&emogdstr=1101&addraed="));
         startActivity(intent);
     }
 
-    // 유튜브 심폐소생술연결
+    // 유튜브 심폐소생술 연결
     public void onVideoClicked(View v) {
         startActivity(new Intent(Intent.ACTION_VIEW)
                 .setData(Uri.parse("https://youtu.be/q7J2T6MFA9g")) // edit this url
